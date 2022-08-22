@@ -19,7 +19,7 @@ public class Driver {
 		*/
 		
 		QuickSort quick = new QuickSort();
-		quick.sort(numbers, 0, numbers.length-1);
+		quick.sort(numbers);
 		System.out.println("After: " + Arrays.toString(numbers));
 	}
 }

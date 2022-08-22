@@ -9,6 +9,11 @@ import java.util.Random;
 
 public class QuickSort {
 	
+	//Override sort method to get rid of extra parameters when calling in main
+	public void sort(int[] array) {
+		sort(array, 0, array.length-1);
+	}
+	
 	public void sort(int[] inputArray, int lowIndex, int highIndex) {
 		
 		//base case, stops recursion
